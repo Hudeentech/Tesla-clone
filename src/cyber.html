@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" class="h-screen">
+<head>
+    <link rel="icon" type="image/svg+xml" href="../Tesla T symbol.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYBERTRUCK | Tesla</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../font-6/css/all.css">
+    <script type="module" src="../solar.js" defer></script>
+    
+</head>
+<body>
+  <style>
+    main, section{
+      font-family: Arial, Helvetica,;
+      letter-spacing: 3px;
+    }
+    html{
+      background: #000;
+    }
+  </style>
+
+    <div class="w-full">
+
+      <header id="containerNav" class=" z-40 transition-all duration-500 absolute top-0 md:px-8 px-4 backdrop-blur-md bg-[#000000be] w-full left-0 right-0 py-4  m-auto flex flex-row justify-between">
+        <a href="../index.html" class="pt-2"><img class="w-[100px]"  src="../public/tesla-9.svg" alt=""></a>
+
+        <button id="menu" class=" block sm:hidden capitalize px-4 py-1 font-medium rounded-md backdrop-blur-2xl z-50 text-white">menu</button>
+
+        <div id="sideNav" class="side-nav">
+          <nav class="flex flex-col text-gray-900  z-50 justify-between  ">
+            <a class="nav-items " href="./model3.html">Model 3</a>
+            <a class="nav-items " href="./modelX.html">Model X</a>
+            <a class="nav-items " href="./modelY.html">Model Y</a>
+            <a class="nav-items " href="./modelS.html">Model S</a>
+            <a class="nav-items " href="./cybermodel.html">Cyber Truck</a>
+            <a class="nav-items " href="./solarroof.html">Solar Roof</a>
+            <a class="nav-items " href="./solarroof.html">Solar Panels</a>
+            <a class="nav-items " href="./powerwall.html">Powerwall</a>
+            <a class="nav-items " href="./phones.html">phones</a>
+          </nav>
+        </div>
+
+        <nav class="relative sm:flex flex-row justify-between text-black hidden  ">
+          <div class="group">
+            <a class="nav-btn text-gray-200" href="#">Vehicles</a>
+          
+            <div class="nav-hover grid-col4 fixed w-full -z-20">
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Vehicles-Cybertruck-1x.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Cyber Truck </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./cyber.html">Learn</a>
+                 <a class="mx-3 underline underline-offset-4" href="./cybermodel.html">Order</a>
+                </div>
+              </div>
+              
+
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Vehicles-Model-S.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Model S </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./modelS.html">Order</a>
+                </div>
+              </div>
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Vehicles-Model-3-LHD.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Model 3 </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./model3.html">Order</a>
+                </div>
+              </div>
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Vehicles-Model-x.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Model X </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./modelX.html">Order</a>
+                </div>
+              </div>
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Vehicles-Model-Y.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Model Y </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./modelY.html">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="group">
+            <a class="nav-btn text-gray-200" href="#">Energy</a>
+          
+            <div class="nav-hover grid-col4 fixed w-full -z-20">
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Energy-Solar-Roof.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl "> Solar Roof </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./solarroof.html">Order</a>
+                </div>
+              </div>
+              
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Energy-Solar-Panels.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Solar Panel </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./solarroof.html">Order</a>
+                </div>
+              </div>
+
+              <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                <img src="../public/images/Mega-Menu-Energy-Powerwall-US.avif" class="w-[200px] block h-full" alt="">
+
+                <h4 class="font-medium text-xl"> Powerwall </h4>
+
+                <div class="flex text-sm font-medium justify-center items-center">
+                 <a class="mx-3 underline underline-offset-4" href="./powerwall.html">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="group">
+              <a class="nav-btn text-gray-200" href="#">Phones</a>
+            
+              <div class="nav-hover grid-col4 fixed w-full -z-20">
+                <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                  <img src="../public/images/3.1-120x280.png" class="w-[100px] block h-full" alt="">
+
+                  <h4 class="font-medium text-xl capitalize">tesla Phone x </h4>
+
+                  <div class="flex text-sm font-medium justify-center items-center">
+                  <a class="mx-3 underline underline-offset-4" href="./phones.html">Order</a>
+                  </div>
+                </div>
+                
+                <div class="flex flex-col m-3 justify-center items-center gap-4 ">
+                  <img src="../public/images/Tesla-Explorer-9_black_front-120x229.png" class="w-[100px] block h-full" alt="">
+
+                  <h4 class="font-medium text-xl capitalize"> black model </h4>
+
+                  <div class="flex text-sm font-medium justify-center items-center">
+                  <a class="mx-3 underline underline-offset-4" href="./phones.html">Order</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+      </header>
+
+
+        <!-- ******************** main******************* -->
+
+        <main id="mainDiv" class="blur-0 relative w-[100%] h-screen snap-feature">
+      
+          <section class="snap-y snap-proximity relative flex flex-col gap-2 justify-center items-center h-screen ">
+            <div class="absolute top-0 left-0 flex justify-center items-start pt-[35%] md:pt-[8%] bg-black w-full h-full -z-30">
+              <img src="../cyber.svg"  class="w-[50%] md:w-[30%] z-20 "  alt="">
+              <img src="../public/Cybertruck-Main-Hero-Desktop.avif" class="w-full h-full absolute object-cover top-0 left-0" alt="">
+            </div>
+
+                <a href="#section" class="fixed bottom-12 right-0 left-0">
+                  <button class="product-btn rounded-none md:hover:bg-[#5b5b5b]  py-4 w-[200px] md:w-[300px] md:bg-[#3a3a3a61] text-white md:border-t-2 md:border-t-white text-whit bg-blue-500 ">explore</button>
+                </a>
+          </section>
+
+          <section id="section" class="snap-y snap-mandatory w-full text-center h-[100vh] flex flex-col items-center md:items-end justify-center md:justify-end  relative -z-50">
+            <img class="absolute w-full h-full block m-auto object-cover" src="../Cybertruck-Second-Hero-Desktop (1).avif" alt="">
+          
+            <div class=" w-[90%] z-10 h-fit pt-4 md:space-x-4 space-y-4 mx-auto sm:mb-[5%] mb-[5%] flex flex-col md:flex-row justify-center items-center">
+              
+              <div class="border-t-white border-t border-r-white border-r w-auto min-w-64">
+                <div class="bg-[#1818187d] text-white mr-2 mt-2 text-left backdrop-blur-sm py-3 px-5 ">
+                  <h2 class="text-3xl uppercase font-semibold">11,000 <span class="text-lg">LBS</span></h2>
+                  <p class="text-base text-gray-300 uppercase">TOWING CAPACITY</p>
+                </div>
+              </div>
+
+              <div class="border-t-white border-t w-auto min-w-64 ">
+                <div class="bg-[#1818187d] text-white mr-2 mt-2 text-left backdrop-blur-sm py-3 px-5 ">
+                  <h2 class="text-3xl uppercase font-semibold">340 <span class="text-lg">MILES</span></h2>
+                  <p class="text-base text-gray-300 uppercase">EST. RANGE</p>
+                </div>
+              </div>
+
+              <div class="border-t-white border-t border-l-white border-l w-auto min-w-64 ">
+                <div class="bg-[#1818187d] text-white ml-2 mt-2 text-left backdrop-blur-sm py-3 px-5 ">
+                  <h2 class="text-3xl uppercase font-semibold">2.6 <span class="text-lg">SEC</span></h2>
+                  <p class="text-base text-gray-300 uppercase">0-60 MPH</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 bg-gradient-to-b from-[#0000] to-black w-full h-[100px] z-20 absolute bottom-0"></div>
+          </section>
+          
+
+          <section class="snap-y snap-mandatory w-full text-center bg-black h-[120vh] flex flex-col items-center justify-between  relative -z-50">
+           <div class="flex flex-col w-[80%] mt-4 mx-auto ">
+             <div  id="clipath" class="snap-y snap-proximity relative flex mt-3 md:ml-3 flex-col gap-2 justify-end h-[400px] md:h-screen items-start">
+              <video loop muted class="  absolute w-full  md:w-[95%] h-[95%] object-cover top-0 left-0 -z-10" autoplay> 
+                <source type="video/mp4" src="../Homepage-Help-Me-Choose-Promo-Desktop.mp4"></source>
+              </video>
+             </div>
+
+             <div class="flex flex-col md:flex-row justify-between flex-nowrap gap-8 items-start py-4 px-6">
+              <div class="flex gap-x-4 flex-row w-[50%] text-left ">
+                <h3 class="font-normal text-2xl text-gray-400 md:text-nowrap">BUILT FOR</h1>
+                <h1 class="font-semibold text-4xl text-gray-200 md:text-nowrap">ANY PLANET</h1>
+              </div>
+
+              <h1 class="text-center md:block hidden text-3xl text-white">|</h1>
+
+              <div class="text-left px-3 md:px-8 ">
+                <p class="uppercase text-base leading-relaxed font-light w-[100%] text-gray-400">DURABLE AND RUGGED ENOUGH TO GO ANYWHERE. TACKLE ANYTHING WITH ELECTRONICALLY ADAPTIVE AIR SUSPENSION THAT OFFERS 12” OF TRAVEL AND 16” OF CLEARANCE.</p>
+              </div>
+             </div>
+           </div>
+          </section>
+
+
+          <section class="snap-y snap-mandatory py-8 w-full bg-black text-center h-fit flex flex-col items-center justify-center  relative -z-50">
+           <div class="md:w-[80%] py-4 px-5 flex  flex-col justify-center items-center">
+            <div class="flex flex-col md:flex-row justify-between p-4 w-full  md:w-[80%] mx-auto items-start gap-12">
+              <div class="w-[100%] h-[75%] flex justify-center items-center">
+                <video loop muted class=" w-[95%] h-[400px] object-cover top-0 left-0" autoplay> 
+                  <source type="video/mp4" src="../public/Cybertruck-Beyond-Prepared-Mobile.mp4"></source>
+                </video>
+              </div>
+
+              <div class="text-white text-left pt-6 space-y-3">
+                <h1 class="text-4xl font-normal ">NO PAINT, NO CHIPS</h1>
+                <p class="text-gray-400">AN ULTRA-HARD STAINLESS-STEEL EXOSKELETON HELPS TO REDUCE DENTS, DAMAGE AND LONG-TERM CORROSION. REPAIRS ARE SIMPLE AND QUICK.
+                </p>
+              </div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row-reverse justify-between p-4  w-full md:w-[80%] mx-auto items-end gap-12">
+              <div class="w-[100%] h-[75%] flex justify-center items-center">
+                <video loop muted class=" w-[95%] h-[400px] object-cover top-0 left-0" autoplay> 
+                  <source type="video/mp4" src="../public/Cybertruck-No-Paint-No-Chips-Desktop-Mobile-Tablet.mp4"></source>
+                </video>
+              </div>
+
+              <div class="text-white text-left pb-6 space-y-3">
+                <h1 class="text-4xl font-normal ">SHATTER-RESISTANT</h1>
+                <p class="text-gray-400">ARMOR GLASS CAN RESIST THE IMPACT OF A BASEBALL AT 70 MPH OR CLASS 4 HAIL. ACOUSTIC GLASS HELPS MAKE THE CABIN AS QUIET AS OUTER SPACE.
+                </p>
+              </div>
+            </div>
+           </div>
+          </section>
+
+          <section class="snap-y snap-mandatory w-full text-center bg-black h-fit flex flex-col items-center justify-between py-8  relative -z-50">
+            <div class="flex flex-col w-full md:w-[80%] mt-4 mx-auto ">
+              <div  id="clipath" class="snap-y snap-proximity relative flex mt-3 ml-3 flex-col gap-2 justify-end h-screen items-start">
+               <video loop muted class="  absolute w-[95%] h-[95%] object-cover top-0 left-0 -z-10" autoplay> 
+                 <source type="video/mp4" src="../public/Cybertruck-Beyond-Prepared-Mobile.mp4"></source>
+               </video>
+              </div>
+ 
+              <div class="flex flex-col md:flex-row justify-between flex-nowrap gap-4 md:gap-8 items-start py-4 md:py-8 px-6">
+               <div class="flex gap-x-4 flex-row flex-wrap md:flex-nowrap w-11/12 md:w-[50%] text-left ">
+                 <h3 class="font-normal text-2xl text-gray-400 md:text-nowrap">BEYOND</h1>
+                 <h1 class="font-semibold text-4xl text-gray-200 md:text-nowrap">PREPARED
+                </h1>
+               </div>
+ 
+               <h1 class="text-center text-3xl hidden md:block text-white">|</h1>
+ 
+               <div class="text-left px-3 md:px-8 ">
+                 <p class="uppercase text-base leading-relaxed font-light w-[100%] text-gray-400">HAUL EVERYTHING YOU NEED WITH 2,500 POUNDS PAYLOAD AND 11,000 POUNDS TOWING CAPACITY—THE EQUIVALENT OF AN AVERAGE AFRICAN ELEPHANT. THE SUPER-TOUGH COMPOSITE BED DOESN’T NEED A LINER AND IS BIG ENOUGH FOR 4'X8’ CONSTRUCTION MATERIALS.</p>
+               </div>
+              </div>
+            </div>
+           </section>
+
+
+          <section class="snap-y snap-mandatory w-full text-center h-fit flex flex-col items-center justify-between  relative -z-50">   
+              <div class="flex flex-col md:flex-row-reverse justify-between p-4 w-full md:w-[80%] mx-auto items-end gap-12">
+                <div class="w-[100%] h-[75%] flex justify-center items-center">
+                  <video loop muted class=" w-[95%] h-[400px] object-cover top-0 left-0" autoplay> 
+                    <source type="video/mp4" src="../public/Cybertruck-No-Paint-No-Chips-Desktop-Mobile-Tablet.mp4"></source>
+                  </video>
+                </div>
+  
+                <div class="text-white text-left pb-6 space-y-3">
+                  <h1 class="text-4xl font-normal ">SHATTER-RESISTANT</h1>
+                  <p class="text-gray-400">ARMOR GLASS CAN RESIST THE IMPACT OF A BASEBALL AT 70 MPH OR CLASS 4 HAIL. ACOUSTIC GLASS HELPS MAKE THE CABIN AS QUIET AS OUTER SPACE.
+                  </p>
+                </div>
+              </div>
+             </div>
+          </section>
+
+      
+          <section id="postcard" class="snap-y snap-mandatory w-full text-center bg-black h-[120vh] flex flex-col items-center justify-between  relative -z-50">
+           <div class="w-full h-full absolute top-0 left-0">
+            <img class="w-full h-full relative " src="../public/Cybertruck-Into-The-Wild-Desktop.avif" alt="">
+           </div>
+
+           <div class=" py-4  px-6 bg-[#0000008e] absolute top-[40%] left-4 right-0  md:left-8 border-t-2 z-10 border-t-white w-[90%] md:w-[500px]">
+            <div class="pt-3 text-left">
+              <h4 class="font-light text-lg text-gray-300">INTO THE</h4>
+              <h2 class="font-medium text-3xl text-gray-200">WILD</h2>
+            </div>
+
+            <div class="font-normal text- base text-left text-white py-3 ">
+              <p>
+                TRAVEL UP TO 340 MILES* ON A SINGLE CHARGE—ENOUGH TO GET YOU INTO THE BACKCOUNTRY AND BEYOND. RECOVER UP TO 136 MILES OF RANGE WITH JUST 15 MINUTES OF SUPERCHARGING.
+              </p>
+            </div>
+           </div>
+          </section>
+
+          <section class="snap-y snap-mandatory w-full text-center h-fit md: py-14 flex flex-col md:flex-row bg-black items-center justify-between  relative -z-50">   
+            <div class="flex flex-col md:flex-row-reverse justify-between p-4 w-full  md:w-[80%] mx-auto items-start gap-12">
+              <div class="w-full md:w-[70%] h-[75%] flex justify-center items-center mx-auto clipath">
+                <img  src="../public/Cybertruck-Power-Your-Site-Desktop.avif" class="w-[100%] h-[100%] block object-cover  " alt="">
+              </div>
+
+              <div class="text-white text-left pt-6 w-[90%] mx-auto md:w-[30%] leading-loose">
+                <h4 class="font-light text-lg text-gray-300">POWER</h4>
+                <h1 class="text-4xl font-normal ">YOUR SITE</h1>
+                <p class="text-gray-400 text-base py-3">
+                  OPERATE YOUR TOOLS OR CHARGE ANY EV WITH INTEGRATED 120V AND 240V BED AND CABIN OUTLETS. 
+                  DURING A GRID OUTAGE, PROVIDE UP TO 11.5 KW OF <a href="" class="underline underline-offset-4">POWER DIRECTLY TO YOUR HOME </a> 
+                  TO HELP KEEP THE LIGHTS ON.
+                </p>
+              </div>
+            </div>
+           </div>
+        </section>
+
+        <section class="snap-y snap-mandatory w-full text-center bg-black h-fit py-16 flex flex-col items-center justify-between  relative -z-50">
+          <div class="flex flex-col w-full md:w-[80%] mt-4 mx-auto ">
+            <div  id="clipath" class="snap-y snap-proximity relative flex mt-3 ml-3 flex-col gap-2 justify-end h-screen items-start">
+             <video loop muted class="  absolute w-[100%] h-[95%] object-cover top-0 left-0 -z-10" autoplay> 
+               <source type="video/mp4" src="../Homepage-Help-Me-Choose-Promo-Desktop.mp4"></source>
+             </video>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between flex-nowrap gap-8 items-start py-4 px-6">
+             <div class="flex gap-x-4 flex-row w-[50%] text-left ">
+               <h3 class="font-semibold text-4xl  text-gray-200 md:text-nowrap">DOPAMINE</h1>
+               <h1 class="font-normal text-2xl text-gray-400 md:text-nowrap">ON TAP</h1>
+             </div>
+
+             <h1 class="text-center text-3xl hidden md:block text-white">|</h1>
+
+             <div class="text-left px-3 md:px-8 ">
+               <p class="uppercase text-base leading-relaxed font-light w-[100%] text-gray-400">GO 0-60 MPH IN JUST 2.6 SECONDS† IN BEAST MODE WHILE MAINTAINING HIGH-SPEED STABILITY. WITH STEER-BY-WIRE AND REAR STEERING, YOU GET THE HANDLING OF A SPORTS CAR AND A BETTER TURNING RADIUS THAN MOST SEDANS.</p>
+             </div>
+            </div>
+          </div>
+         </section>
+
+
+         <section class="snap-y snap-mandatory w-full text-center h-fit py-16 flex flex-col md:flex-row bg-black items-center justify-between  relative -z-50">   
+          <div class="flex flex-col md:flex-row-reverse justify-between p-4  w-full md:w-[80%] mx-auto items-start gap-12">
+            <div class=" w-full md:w-[70%] h-[75%] flex justify-center items-center clipath">
+              <img  src="../public/Cybertruck-Human-Meet-Machine-Desktop.avif" class="w-[100%] h-[100%] block object-cover clipath " alt="">
+            </div>
+
+            <div class="text-white text-left pt-6 w-[90%] mx-auto md:w-[30%] leading-loose">
+              <h4 class="font-light text-lg text-gray-300">RUGGED OUTSIDE,</h4>
+              <h1 class="text-4xl font-normal ">COMFORTABLE INSIDE</h1>
+              <p class="text-gray-400 text-base py-3">
+                IMMERSE YOURSELF IN A SPACIOUS, MODERN CABIN PACKED WITH ADVANCED TECHNOLOGY FEATURES AND ENTERTAINMENT.
+              </p>
+            </div>
+          </div>
+         </div>
+      </section>
+
+      <section class="snap-y snap-mandatory w-full text-center bg-black h-fit py-16 flex flex-col items-center justify-between  relative -z-50">
+        <div class="flex flex-col w-full md:w-[80%] mt-4 mx-auto ">
+          <div  id="clipath" class="snap-y snap-proximity relative flex mt-3 ml-3 flex-col gap-2 justify-end h-screen items-start">
+           <video loop muted class="  absolute w-[100%] h-[95%] object-cover top-0 left-0 -z-10" autoplay> 
+             <source type="video/mp4" src="../Homepage-Help-Me-Choose-Promo-Desktop.mp4"></source>
+           </video>
+          </div>
+
+          <div class="flex flex-col md:flex-row justify-between flex-nowrap gap-8 items-start py-4 px-6">
+           <div class="flex gap-x-4 flex-row flex-wrap md:flex-nowrap w-[50%] text-left ">
+             <h3 class="font-medium text-2xl  text-gray-400 md:text-nowrap">KEEP THE</h1>
+             <h1 class="font-semibold text-4xl text-gray-200 md:text-nowrap">ADVENTURE GOING
+            </h1>
+           </div>
+
+           <h1 class="text-center text-3xl hidden md:block text-white">|</h1>
+
+           <div class="text-left px-3 md:px-8 ">
+             <p class="uppercase text-base leading-relaxed font-light w-[100%] text-gray-400">EXPLORE TESLA-DESIGNED UPGRADES FOR EVERY SCENARIO. ACCESSORIES SOLD SEPARATELY.</p>
+           </div>
+          </div>
+        </div>
+       </section>
+
+       <section>
+        <div>
+
+        </div>
+       </section>
+
+        </section>
+        </main>
+    </div>
+</body>
+</html>

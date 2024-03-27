@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+  z-index: 20;
+  display: block;
+}
+
+#video{
+
+}
+
+*::-webkit-scrollbar{
+  display: none;
+  width: 3px;
+}
+*::-webkit-scrollbar-button{
+  width: 2px;
+}
+
+
+
+@layer components {
+  .snap-feature {
+    @apply snap-y snap-mandatory h-screen overflow-scroll scroll-smooth transition-all duration-500;
+  }
+
+  .side-nav {
+    @apply bg-white sm:hidden transition-all duration-700 fixed top-0 right-[-1000%] w-full md:w-[45%] h-screen z-50 p-10 shadow-2xl;
+  }
+
+  .close-icon {
+    @apply  w-12 h-12 duration-500 hover:text-black rounded-full p-1 cursor-pointer;
+  }
+
+  .nav-bar {
+    @apply flex justify-between w-full fixed top-0 z-10 h-28 px-10 items-center;
+  }
+
+  .nav-items {
+    @apply  w-full text-2xl text-left font-semibold py-2 px-5 mt-5 rounded-md md:bg-transparent duration-300 bg-opacity-40 hover:bg-slate-300 hover:bg-opacity-50 outline-none;
+  }
+  .nav-btn {
+    @apply px-4 z-50 text-[#dbdbdb] hover:bg-gray-300 py-2 hover:text-gray-900 transition-all duration-300 rounded-md font-medium;
+  }
+  .nav-hover {
+    @apply grid justify-center items-center gap-4 top-[-1000%] py-4 transition-all duration-500 ease-in-out pt-10 group-hover:top-0 h-auto w-full absolute left-0 bg-white;
+  }
+  
+  .product-btn {
+    @apply py-2 px-4 mx-auto my-2 text-gray-700 capitalize bg-gray-300 font-normal text-sm rounded-md;
+  }
+  
+
+}
+
+.grid-col4{
+  grid-template-columns:repeat(4, auto);
+}
+.clipath{
+  clip: polygon(0 0, 100% 0, 100% 87%, 81% 100%, 0% 100%, 0% 60%, 0 22%);
+}
